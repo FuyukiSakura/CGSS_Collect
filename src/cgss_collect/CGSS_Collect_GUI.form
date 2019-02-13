@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="CGSS &#x96c6;&#x7269;PT&#x8a08;&#x7b97;"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[370, 440]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[360, 410]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="jSeparator1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="EventHrLabel" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Component id="EventHrSpinner" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Component id="AutoRecStamLabel" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="AutoRecStamTextField" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="PLvLabel" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Component id="PLvSpinner" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Component id="StarLabel" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Component id="StarSpinner" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jLabel1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="Stam19Label" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="Stam19TextField" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="Stam38Label" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="Stam38TextField" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="CollectedLabel" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="CollectedTextField" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="CollectedPTLabel" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="CollectedPTTextField" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="CollectedToPTLabel" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="CollectedToPTTextField" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="TotalPTLabel" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="TotalPTTextField" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="44" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="PLvSpinner" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="PLvLabel" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="StarSpinner" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="StarLabel" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="EventHrSpinner" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="EventHrLabel" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="AutoRecStamLabel" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="AutoRecStamTextField" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Stam19Label" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="Stam19TextField" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Stam38Label" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="Stam38TextField" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CollectedLabel" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="CollectedTextField" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CollectedPTLabel" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="CollectedPTTextField" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CollectedToPTLabel" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="CollectedToPTTextField" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TotalPTLabel" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="TotalPTTextField" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="24" style="2"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="CGSS &#x96c6;&#x7269;PT&#x8a08;&#x7b97;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="PLvSpinner">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="200" maximum="500" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="max: 500"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="PLvSpinnerStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PLvLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PLv:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EventHrLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x6d3b;&#x52d5;&#x6642;&#x6578;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="EventHrSpinner">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="174" maximum="222" minimum="174" numberType="java.lang.Integer" stepSize="1" type="number"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="max: 222"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="EventHrSpinnerStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="StarLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x77f3;&#x982d;&#x91cf;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="StarSpinner">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="1000" maximum="75000" minimum="3" numberType="java.lang.Integer" stepSize="1" type="number"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="max: 75,000"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="StarSpinnerStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AutoRecStamLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AutoRecStamTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;&quot;+((Integer)EventHrSpinner.getValue() * 12)" type="code"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;&#x91cf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Stam19Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1&#x500d;&#x6d88;&#x9ad4;&#x5834;&#x6b21;(19&#x9ad4;):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Stam19TextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="2222"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;&#x91cf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Stam38Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2&#x500d;&#x6d88;&#x9ad4;&#x5834;&#x6b21;(38&#x9ad4;):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Stam38TextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="3333"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;&#x91cf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CollectedLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x9053;&#x5177;&#x91cf;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CollectedTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="4444"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;&#x91cf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CollectedPTLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x7d14;&#x9053;&#x5177;PT:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CollectedPTTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="5555"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;&#x91cf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CollectedToPTLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x9053;&#x5177;&#x5168;&#x6d88;PT:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CollectedToPTTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="6666"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;&#x91cf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TotalPTLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x7e3d;PT:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TotalPTTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5fae;&#x8edf;&#x6b63;&#x9ed1;&#x9ad4;" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="7777"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x81ea;&#x7136;&#x56de;&#x9ad4;&#x91cf;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
